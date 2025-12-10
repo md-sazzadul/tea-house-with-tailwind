@@ -188,6 +188,59 @@ Modify animation keyframes in the `<style>` section:
 - Minimal custom CSS for faster load times
 - Lazy loading for animations
 
+## 📋 TODO / Future Enhancements
+
+### High Priority
+
+- [ ] **Shopping Cart Functionality**: Implement a working cart system with add/remove items
+- [ ] **Product Detail Pages**: Create individual pages for each tea product
+- [ ] **Backend Integration**: Connect to a database for dynamic product management
+- [ ] **Payment Gateway**: Integrate Stripe or PayPal for checkout
+- [ ] **User Authentication**: Add login/signup functionality for customers
+- [ ] **Order Tracking**: Allow customers to track their orders
+
+### Medium Priority
+
+- [ ] **Search Functionality**: Add search bar to find products quickly
+- [ ] **Product Filtering**: Filter by price, type, rating, etc.
+- [ ] **Wishlist Feature**: Let users save favorite products
+- [ ] **Product Reviews**: Enable customers to leave detailed reviews
+- [ ] **Blog Section**: Add tea-related articles and brewing guides
+- [ ] **Multi-language Support**: Internationalization (i18n) for global reach
+- [ ] **Dark Mode**: Implement theme toggle for better accessibility
+- [ ] **Live Chat Support**: Add customer service chat widget
+
+### Low Priority
+
+- [ ] **Animations Enhancement**: Add scroll-triggered animations with libraries like AOS
+- [ ] **Product Comparison**: Compare multiple teas side-by-side
+- [ ] **Loyalty Program**: Reward system for repeat customers
+- [ ] **Gift Cards**: Digital gift card purchase and redemption
+- [ ] **Tea Quiz**: Interactive quiz to recommend teas based on preferences
+- [ ] **Virtual Tea Tasting**: AR/VR experience for product visualization
+- [ ] **Subscription Box**: Monthly tea subscription service
+- [ ] **Mobile App**: Native iOS/Android applications
+
+### Technical Improvements
+
+- [ ] **SEO Optimization**: Add meta tags, structured data, and sitemap
+- [ ] **Accessibility (a11y)**: WCAG 2.1 compliance for screen readers
+- [ ] **Progressive Web App (PWA)**: Make site installable and work offline
+- [ ] **Image Optimization**: WebP format and responsive images
+- [ ] **Analytics Integration**: Google Analytics or similar tracking
+- [ ] **Performance Monitoring**: Lighthouse score optimization
+- [ ] **Unit Testing**: Add test coverage for JavaScript functionality
+- [ ] **CI/CD Pipeline**: Automated deployment workflow
+
+### Content Additions
+
+- [ ] **FAQ Section**: Frequently asked questions about products and shipping
+- [ ] **About Us Page**: Detailed company history and mission
+- [ ] **Contact Form**: Direct communication with customer support
+- [ ] **Store Locator**: Map showing physical store locations
+- [ ] **Press/Media Kit**: Resources for journalists and partners
+- [ ] **Sustainability Page**: Environmental initiatives and commitments
+
 ## 👥 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
