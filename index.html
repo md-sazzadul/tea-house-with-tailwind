@@ -464,86 +464,90 @@
       </section>
 
       <!-- Reviews Section -->
-      <section class="mb-24">
+      <section id="reviews" class="py-20">
         <div
-          class="bg-gradient-to-r from-orange-500 to-red-500 rounded-xl grid grid-cols-1 lg:grid-cols-2 text-white px-7 md:px-16"
+          class="bg-gradient-to-r from-orange-500 to-red-500 rounded-3xl grid grid-cols-1 lg:grid-cols-2 text-white overflow-hidden shadow-2xl"
         >
           <!-- Text Section -->
-          <div class="flex justify-center items-center overflow-hidden">
-            <div class="w-5/6">
-              <h1 class="text-5xl font-bold mb-5 mt-10">
+          <div class="flex justify-center items-center p-12 lg:p-16">
+            <div>
+              <span
+                class="text-orange-200 font-semibold text-sm uppercase tracking-wider"
+                >Testimonials</span
+              >
+              <h2 class="text-4xl md:text-5xl font-bold mt-3 mb-6">
                 Meet Our Super Clients
-              </h1>
-              <p class="mb-5">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour, or randomised words which don't look even
-                slightly believable.
+              </h2>
+              <p class="text-orange-100 text-lg leading-relaxed mb-8">
+                Hear what our valued customers have to say about their
+                experience with our premium tea selection and exceptional
+                service.
               </p>
-              <button class="bg-white text-orange-700 px-3 py-2 rounded-lg">
-                Show All
+              <button
+                class="bg-white text-orange-600 px-6 py-3 rounded-full font-bold hover:bg-orange-50 transition-all hover:shadow-lg"
+              >
+                Show All Reviews
+                <i class="fa-solid fa-arrow-right ml-2"></i>
               </button>
             </div>
           </div>
 
-          <!-- Reviews Card Section -->
-          <div class="relative py-24">
-            <!-- Middle Card -->
-            <div class="absolute z-10 top-44 md:top-52">
+          <!-- Reviews Cards -->
+          <div class="relative py-16 lg:py-24 px-6">
+            <!-- Main Review Card -->
+            <div
+              class="review-card relative z-20 bg-white text-gray-800 rounded-2xl p-8 shadow-2xl"
+            >
               <div
-                class="h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5"
+                class="absolute -top-6 -left-6 bg-white rounded-full shadow-lg"
               >
-                <div class="absolute -top-5 -left-5 bg-white rounded-full">
-                  <img class="p-1" src="./images/client.png" alt="" />
-                </div>
-                <div>
-                  <p class="text-gray-500 mb-5">
-                    We are providing the best and suitable home insurance
-                    services for the people who are interested to treatment
-                  </p>
-                  <h1 class="font-bold">Ilham Yuda</h1>
-                  <small class="font-bold text-gray-500">Businessman</small>
-                </div>
+                <img
+                  class="w-16 h-16 p-1 rounded-full"
+                  src="./images/client.png"
+                  alt="Client"
+                />
               </div>
+              <div class="flex mb-4">
+                <i class="fa-solid fa-star text-amber-400"></i>
+                <i class="fa-solid fa-star text-amber-400"></i>
+                <i class="fa-solid fa-star text-amber-400"></i>
+                <i class="fa-solid fa-star text-amber-400"></i>
+                <i class="fa-solid fa-star text-amber-400"></i>
+              </div>
+              <p class="text-gray-600 mb-6 leading-relaxed">
+                "We are providing the best and suitable home insurance services
+                for the people who are interested in treatment"
+              </p>
+              <h3 class="font-bold text-xl">Ilham Yuda</h3>
+              <p class="text-gray-500 font-medium">Businessman</p>
             </div>
 
-            <!-- top card -->
+            <!-- Background Cards -->
             <div
-              class="relative left-8 md:left-32 h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5 opacity-40"
+              class="review-card absolute top-8 left-12 lg:left-20 w-11/12 lg:w-3/4 bg-white text-gray-800 rounded-2xl p-8 shadow-xl opacity-30"
             >
-              <div class="absolute -top-5 -left-5 bg-white rounded-full">
-                <img class="p-1" src="./images/client.png" alt="" />
-              </div>
-              <div>
-                <p class="text-gray-500 mb-5">
-                  We are providing the best and suitable home insurance services
-                  for the people who are interested to treatment
-                </p>
-                <h1 class="font-bold">Ilham Yuda</h1>
-                <small class="font-bold text-gray-500">Businessman</small>
+              <div class="absolute -top-6 -left-6 bg-white rounded-full">
+                <img
+                  class="w-16 h-16 p-1 rounded-full"
+                  src="./images/client.png"
+                  alt="Client"
+                />
               </div>
             </div>
-            <!-- bottom card -->
             <div
-              class="relative left-8 md:left-32 top-10 h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5 opacity-40"
+              class="review-card absolute bottom-8 left-12 lg:left-20 w-11/12 lg:w-3/4 bg-white text-gray-800 rounded-2xl p-8 shadow-xl opacity-30"
             >
-              <div class="absolute -top-5 -left-5 bg-white rounded-full">
-                <img class="p-1" src="./images/client.png" alt="" />
-              </div>
-              <div>
-                <p class="text-gray-500 mb-5">
-                  We are providing the best and suitable home insurance services
-                  for the people who are interested to treatment
-                </p>
-                <h1 class="font-bold">Ilham Yuda</h1>
-                <small class="font-bold text-gray-500">Businessman</small>
+              <div class="absolute -top-6 -left-6 bg-white rounded-full">
+                <img
+                  class="w-16 h-16 p-1 rounded-full"
+                  src="./images/client.png"
+                  alt="Client"
+                />
               </div>
             </div>
           </div>
         </div>
       </section>
-
-      <!-- News Section -->
     </main>
 
     <!-- Footer Section -->
